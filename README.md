@@ -1,17 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+Mng cai ruby 3.2.0 nhe
+
+* Rails version: 7.0.4.2
 
 * System dependencies
-
-* Configuration
+Cai mysql, NodeJS v10++
 
 * Database creation
+Mng vao file config/database.yml dong thu 17, sua password thanh pass cua mng roi them vao .gitignore cho do conflict
+
+* Configuration
+B1: bundle install
+B2: rake db:create
+B3: rake db:migrate
+B4: rails s
 
 * Database initialization
 
